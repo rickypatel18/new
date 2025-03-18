@@ -10,6 +10,7 @@ interface CustomButtonProps {
   fontWeight?: string;
   width?: string;
   height?: string;
+  display?:string,
   children?: ReactNode;
 }
 
@@ -21,11 +22,13 @@ const CustomButton = ({
   hoverBgColor = "hover:bg-[var(--color-hover-primary)]",
   textSize = "text-sm",
   fontWeight = "font-[500]",
+  display = "flex",
   children,
 }: CustomButtonProps) => {
   return (
     <button
-      className={` flex justify-center items-center gap-[15px] rounded-[8px] transition-all px-[9px] py-[10px] md:px-[14px] md:py-[12px] lg:px-[19px] lg:py-[14px] xl:px-[24px] xl:py-[16px] duration-300 ease-in-out 
+      className={`flex justify-center items-center duration-300 ease-in-out rounded-lg font-medium px-6 py-2.5 leading-[28px]
+        ${display}
         ${bgColor} ${hoverBgColor}  
         ${textSize} ${fontWeight}
         ${textColor} ${hoverTextColor} `}

@@ -1,11 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
 
 :root {
-  --color-primary: #9EFF00;  
-  --color-hover-primary:#a9e649 ;   
-  --color-secondary: #D8FF99;    
-  --color-background: #262626;  
-  --color-foreground: #1A1A1A;  
-  --color-text-primary: #FFFFFF; 
-  --color-text-secondary: #C5FF66; 
-} 
+  --color-primary: #9eff00;
+  --color-hover-primary: #a9e649;
+  --color-secondary: #d8ff99;
+  --color-background: #262626;
+  --color-foreground: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #c5ff66;
+  --color-text-gray: #98989a;
+  --font-primary: "Barlow", sans-serif;
+  --color-border:  #262626;
+}
+
+body {
+  @apply leading-normal;
+  font-family: "Barlow", sans-serif;
+  color: var(--color-text-primary);
+}
+
+.h2{
+  @apply text-[28px] md:text-[33px] lg:text-[38px] xl:text-[48px] font-semibold text-[#FFFFFF] text-center;
+}
+.h2-p{
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-center
+}
+.h3{
+  @apply text-[20px] lg:text-[24px] xl:text-[30px] font-[600] text-start text-[#FFFFFF] 
+}
+.h3-p{
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-start
+}
