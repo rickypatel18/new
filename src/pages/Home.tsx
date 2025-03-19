@@ -24,24 +24,24 @@ const Home = () => {
       title: "Why Choose SquareUp?",
       description:
         "Experience excellence in digital craftsmanship with our team of skilled professionals dedicated to delivering exceptional results.",
-        image: img2,
+      image: img2,
     },
     {
       title: "What our Clients say About us",
       description:
         "At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. Here's what some of our satisfied clients have to say about their experience working with us",
-        image: img3,
+      image: img3,
     },
     {
       title: "Frequently Asked Questions",
       description:
         "Still you have any questions? Contact our Team via hello@squareup.com",
-        image: img4,
+      image: img4,
     },
   ];
 
   return (
-    <div className="flex flex-col container">
+    <div className="flex flex-col container  px-4 lg:px-0">
       <StudioBanner />
       <Companies />
       <Banner

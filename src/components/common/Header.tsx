@@ -19,14 +19,14 @@ const Header = () => {
   return (
     <section
       className="
-    border-b border-[var(--color-background)]"
+    border-b border-[var(--color-background)] px-4"
     >
       <header className="container mx-auto flex justify-between items-center py-[20px]  ">
-        <div className=" lg:w-[25%] flex items-start justify-start ">
+        <div className=" lg:w-[28%] flex items-start justify-start ">
           <Logo hide={false} />
         </div>
 
-        <div className="flex flex-row-reverse xl:flex-row items-center xl:justify-between gap-[10px] lg:w-[75%] ">
+        <div className="flex flex-row-reverse xl:flex-row items-center xl:justify-between gap-[10px] lg:w-[72%] ">
           <nav className="hidden xl:flex">
             <NavMenuHeader links={navLinks} />
           </nav>
@@ -39,7 +39,7 @@ const Header = () => {
           </button>
 
           <div
-            className={`fixed top-0 left-0 w-[70%] h-full bg-black text-white shadow-lg transform transition-transform duration-300 ${
+            className={`fixed top-0 left-0 w-[70%] h-full bg-black text-white transform transition-transform duration-300 ${
               isMenuOpen ? "translate-x-0" : "-translate-x-full"
             }`}
           >
@@ -60,7 +60,7 @@ const Header = () => {
 
           {isMenuOpen && (
             <div
-              className="fixed inset-0 bg-black opacity-50 md:hidden"
+              className="fixed inset-0 bg-black opacity-0 md:hidden"
               onClick={() => setIsMenuOpen(false)}
             />
           )}

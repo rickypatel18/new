@@ -19,8 +19,8 @@ const navLinks = [
 
 const Footer = () => {
   return (
-    <div className="border-t border-[var(--color-background)] py-[30px] gap-[50px] flex flex-col justify-center items-center">
-      <div className=" container mx-auto gap-[10px] lg:gap-[22px] xl:gap-[30px] flex flex-col lg:flex-row items-center justify-between ">
+    <div className="border-t border-[var(--color-background)]  py-[30px] gap-[50px] flex flex-col justify-center items-center">
+      <div className=" container px-4 lg:px-0 mx-auto gap-[10px] lg:gap-[22px] xl:gap-[30px] flex flex-col lg:flex-row items-center justify-between ">
         <Logo />
         <NavMenuFooter links={navLinks} />
         <Media />

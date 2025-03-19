@@ -15,7 +15,7 @@ const Banner = ({
 }: BannerProps) => {
   return (
     <div
-      className="container banner h-[190px] lg:h-[280px] xl:h-[336px] bg-[length:30px_20px,100%_100%] lg:bg-[length:30px_20px,100%_100%] xl:bg-[length:30px_20px,100%_100%] bg-center bg-repeat border border-[var(--color-border)] flex justify-center items-center filter hue-rotate-[248deg] sepia-[73%] saturate-[143%] brightness-[100%] grayscale-[68%]  "
+      className="max-w-container banner h-[190px] lg:h-[280px] xl:h-[336px] bg-[length:30px_20px,100%_100%] lg:bg-[length:30px_20px,100%_100%] xl:bg-[length:30px_20px,100%_100%] bg-center bg-repeat border border-[var(--color-border)] flex justify-center items-center filter hue-rotate-[248deg] sepia-[73%] saturate-[143%] brightness-[100%] grayscale-[68%]  "
       style={{
         backgroundImage: `url(${bg}), url(${overlayImage})`,
       }}
