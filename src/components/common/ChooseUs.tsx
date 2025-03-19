@@ -9,13 +9,9 @@ const ChooseUs = () => {
         <div className=" flex flex-col gap-10">
           <div className="flex gap-5 justify-start items-center">
             <div
-              className="h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
-              style={{
-                background:
-                  "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 90%)",
-              }}
+              className="bg-gradient-to-t from-transparent to-[#242424] h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
             >
-              <FaMedal  className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
+              <FaMedal className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
             </div>
             <h3 className="h3">Expertise</h3>
           </div>
@@ -34,13 +30,10 @@ const ChooseUs = () => {
         <div className=" flex flex-col gap-10">
           <div className="flex gap-5 justify-start items-center">
             <div
-              className="h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
-              style={{
-                background:
-                  "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 90%)",
-              }}
+              className="bg-gradient-to-t from-transparent to-[#242424] h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
+             
             >
-              <IoPeopleSharp  className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
+              <IoPeopleSharp className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
             </div>
             <h3 className="h3">Expertise</h3>
           </div>
@@ -59,13 +52,10 @@ const ChooseUs = () => {
         <div className=" flex flex-col gap-10">
           <div className="flex gap-5 justify-start items-center">
             <div
-              className="h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
-              style={{
-                background:
-                  "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 90%)",
-              }}
+              className="bg-gradient-to-t from-transparent to-[#242424] h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
+              
             >
-              <MdEnergySavingsLeaf  className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
+              <MdEnergySavingsLeaf className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
             </div>
             <h3 className="h3">Expertise</h3>
           </div>
@@ -84,13 +74,10 @@ const ChooseUs = () => {
         <div className=" flex flex-col gap-10">
           <div className="flex gap-5 justify-start items-center">
             <div
-              className="h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
-              style={{
-                background:
-                  "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 90%)",
-              }}
+              className="bg-gradient-to-t from-transparent to-[#242424] h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] "
+             
             >
-              <FaCrown  className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
+              <FaCrown className="text-[var(--color-primary)] w-[22px] h-[22px] lg:w-[26px] lg:h-[26px] xl:w-[36px] xl:h-[36px]" />
             </div>
             <h3 className="h3">Expertise</h3>
           </div>

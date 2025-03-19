@@ -5,10 +5,9 @@ import CustomButton from "../custom/CustomButton";
 const StudioBanner = () => {
   return (
     <div
-      className=" h-[566px] lg:h-[691px] xl:h-[796px] pt-[80px] lg:pt-[112px] bg-[length:30px_20px,100%_300px] lg:bg-[length:30px_20px,100%_402px] xl:bg-[length:30px_20px,100%_448px] bg-center bg-repeat flex justify-center items-start border border-[var(--color-border)]"
+      className=" h-[566px] lg:h-[691px] xl:h-[796px] pt-[80px] lg:pt-[112px] bg-[length:30px_20px,100%_300px] lg:bg-[length:30px_20px,100%_402px] xl:bg-[length:30px_20px,100%_448px] flex justify-center items-start border border-[var(--color-border)]"
       style={{
         backgroundImage: `url(${img1}), url(${img2})`,
-        // backgroundSize: "30px 20px, 100% 448px ",
         backgroundRepeat: "repeat, no-repeat",
         backgroundPosition: "left top, bottom",
       }}
@@ -54,7 +53,6 @@ const StudioBanner = () => {
           />
         </div>
       </div>
-      
     </div>
   );
 };

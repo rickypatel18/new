@@ -1,0 +1,34 @@
+/* Style for range inputs */
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    position: absolute;
+    top: -6px; /* Adjust to align with track */
+    pointer-events: auto;
+  }
+  
+  /* Webkit (Chrome, Safari) */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* Mozilla (Firefox) */
+  input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+  }
+  

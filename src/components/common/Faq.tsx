@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { FaPlus } from "react-icons/fa";
 
 interface FAQItem {
   id: number;
@@ -55,10 +56,29 @@ const faqData: FAQItem[] = [
     answer:
       "Yes, we can assist with ongoing maintenance and updates as needed.",
   },
+  {
+    id: 9,
+    question: "Can you help with website or app maintenance and updates?",
+    answer:
+      "Yes, we can assist with ongoing maintenance and updates as needed.",
+  },
+  {
+    id: 10,
+    question: "Can you help with website or app maintenance and updates?",
+    answer:
+      "Yes, we can assist with ongoing maintenance and updates as needed.",
+  },
+  {
+    id: 11,
+    question: "Can you help with website or app maintenance and updates?",
+    answer:
+      "Yes, we can assist with ongoing maintenance and updates as needed.",
+  },
 ];
 
-const Faq: React.FC = () => {
+const Faq = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const splitIndex = Math.ceil(faqData.length / 2); // Calculate split index
 
   const toggleFaq = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -67,58 +87,104 @@ const Faq: React.FC = () => {
   return (
     <div className="container mx-auto bg-transparent ">
       <div className="grid grid-cols-1 md:grid-cols-2 ">
-        {/* First Column: First 4 Items */}
+        {/* First Column: First half of items */}
         <div className="">
-          {faqData.slice(0, 4).map((item) => (
+          {faqData.slice(0, splitIndex).map((item) => (
             <div key={item.id} className="border border-[var(--color-border)]">
               <div
-                className="flex justify-between items-center p-4 cursor-pointer"
+                className="flex justify-between items-start py-7 gap-7 px-12 cursor-pointer"
                 onClick={() => toggleFaq(item.id)}
               >
-                <span className="text-lg font-semibold">
-                  {String(item.id).padStart(2, "0")} {item.question}
-                </span>
-                <span
-                  className={`transform transition-transform ${
-                    openIndex === item.id ? "rotate-45" : ""
+                {/* Index Box */}
+                <div
+                  className={`bg-gradient-to-t from-transparent to-[#242424] h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] text-3xl ${
+                    openIndex === item.id
+                      ? "text-[var(--color-text-secondary)]"
+                      : " "
                   }`}
+                  
                 >
-                  &#43;
-                </span>
-              </div>
-              {openIndex === item.id && (
-                <div className="p-4 bg-gray-700 rounded-b-lg">
-                  <p>{item.answer}</p>
+                  {String(item.id).padStart(2, "0")}
                 </div>
-              )}
+
+                <div className=" lg:pt-7 xl:pt-9 flex flex-col flex-1">
+                  {/* Question Row */}
+                  <div
+                    className={`flex justify-between text-xl items-center ${
+                      openIndex === item.id
+                        ? "text-[var(--color-text-secondary)]"
+                        : ""
+                    }`}
+                  >
+                    <div className="flex-1 ">{item.question}</div>
+                    <span
+                      className={`transition-transform duration-300 ${
+                        openIndex === item.id ? "rotate-45" : ""
+                      }`}
+                    >
+                      <FaPlus />
+                    </span>
+                  </div>
+                  <div>
+                    {openIndex === item.id && (
+                      <div className="mt-4 h3-p bg-trasparent rounded-lg">
+                        <p>{item.answer}</p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
           ))}
         </div>
 
-        {/* Second Column: Last 4 Items */}
+        {/* Second Column: Remaining items */}
         <div className="">
-          {faqData.slice(4, 8).map((item) => (
+          {faqData.slice(splitIndex).map((item) => (
             <div key={item.id} className="border border-[var(--color-border)]">
               <div
-                className="flex justify-between items-center p-4 cursor-pointer"
+                className="flex justify-between items-start py-4 px-9 md:py-5 md:px-10 lg:py-6 lg:px-11 xl:py-7 xl:px-12 gap-4 md:gap-5 lg:gap-6 xl:gap-7 cursor-pointer"
                 onClick={() => toggleFaq(item.id)}
               >
-                <span className="text-lg font-semibold">
-                  {String(item.id).padStart(2, "0")} {item.question}
-                </span>
-                <span
-                  className={`transform transition-transform ${
-                    openIndex === item.id ? "rotate-45" : ""
+                {/* Index Box */}
+                <div
+                  className={`bg-gradient-to-t from-transparent to-[#242424] h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] flex justify-center items-center xl:h-[88px] xl:w-[88px] rounded-[10px] text-3xl ${
+                    openIndex === item.id
+                      ? "text-[var(--color-text-secondary)]"
+                      : " "
                   }`}
+                  
                 >
-                  &#43;
-                </span>
-              </div>
-              {openIndex === item.id && (
-                <div className="p-4 bg-gray-700 rounded-b-lg">
-                  <p>{item.answer}</p>
+                  {String(item.id).padStart(2, "0")}
                 </div>
-              )}
+
+                <div className=" lg:pt-7 xl:pt-9 flex flex-col flex-1">
+                  {/* Question Row */}
+                  <div
+                    className={`flex justify-between text-xl items-center ${
+                      openIndex === item.id
+                        ? "text-[var(--color-text-secondary)]"
+                        : ""
+                    }`}
+                  >
+                    <div className="flex-1 ">{item.question}</div>
+                    <span
+                      className={`transition-transform duration-300 ${
+                        openIndex === item.id ? "rotate-45" : ""
+                      }`}
+                    >
+                      <FaPlus />
+                    </span>
+                  </div>
+                  <div>
+                    {openIndex === item.id && (
+                      <div className="mt-4 h3-p bg-trasparent rounded-lg">
+                        <p>{item.answer}</p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
           ))}
         </div>

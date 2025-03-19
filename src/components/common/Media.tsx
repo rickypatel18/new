@@ -10,38 +10,20 @@ const Media = () => {
       </div>
       <div className="flex flex-row gap-[10px] xl:gap-[14px]">
         <div
-          className="h-[52px] w-[52px] flex justify-center items-center xl:h-[64px] xl:w-[64px] rounded-[6px]"
-          style={{
-            background:
-              "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 90%)",
-            // border: "1px solid",
-            // borderImage:
-            //   "linear-gradient(180deg, rgba(255,255,255,0.1) 1%, rgba(36,36,36,1) 100%) 1",
-          }}
+          className="bg-gradient-to-t from-transparent to-[#242424] h-[52px] w-[52px] flex justify-center items-center xl:h-[64px] xl:w-[64px] rounded-[6px]"
+         
         >
           <FaFacebook className="text-[var(--color-primary)] w-[20px] h-[20px] xl:w-[24px] xl:h-[24px]" />
         </div>
         <div
-          className="h-[52px] w-[52px] flex justify-center items-center xl:h-[64px] xl:w-[64px] rounded-[6px]"
-          style={{
-            background:
-              "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 90%)",
-            // border: "1px solid",
-            // borderImage:
-            //   "linear-gradient(180deg, rgba(255,255,255,0.1) 1%, rgba(36,36,36,1) 100%) 1",
-          }}
+          className="bg-gradient-to-t from-transparent to-[#242424] h-[52px] w-[52px] flex justify-center items-center xl:h-[64px] xl:w-[64px] rounded-[6px]"
+          
         >
           <FaTwitter className="text-[var(--color-primary)] w-[20px] h-[20px] xl:w-[24px] xl:h-[24px]" />
         </div>
         <div
-          className=" h-[52px] w-[52px] flex justify-center items-center xl:h-[64px] xl:w-[64px] rounded-[6px]"
-          style={{
-            background:
-              "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 90%)",
-            // border: "1px solid",
-            // borderImage:
-            //   "linear-gradient(180deg, rgba(255,255,255,0.1) 1%, rgba(36,36,36,1) 100%) 1",
-          }}
+          className="bg-gradient-to-t from-transparent to-[#242424] h-[52px] w-[52px] flex justify-center items-center xl:h-[64px] xl:w-[64px] rounded-[6px]"
+          
         >
           <FaLinkedin className="text-[var(--color-primary)] w-[20px] h-[20px] xl:w-[24px] xl:h-[24px]" />
         </div>

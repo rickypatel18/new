@@ -32,3 +32,7 @@ body {
 .h3-p{
   @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-start
 }
+
+.form-heading{
+  @apply text-[16px] lg:text-[18px] xl:text-[22px] font-[500] flex text-start
+}
