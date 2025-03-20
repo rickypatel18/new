@@ -1,19 +1,19 @@
-import Companies from "@/components/common/Companies";
+import Companies from "@/components/common/home/Companies";
 import Banner from "@/components/custom/Banner";
-import StudioBanner from "@/components/common/StudioBanner";
+import StudioBanner from "@/components/common/home/StudioBanner";
 import img1 from "../assets/images/banner/b1.png";
 import img2 from "../assets/images/banner/b2.png";
 import img3 from "../assets/images/banner/b3.png";
 import img4 from "../assets/images/banner/b4.png";
-import Services from "@/components/common/Services";
-import ChooseUs from "@/components/common/ChooseUs";
-import ClientSay from "@/components/common/ClientSay";
-import Faq from "@/components/common/Faq";
-import StartProject from "@/components/common/StartProject";
-import Form from "@/components/common/Form";
+import Services from "@/components/common/home/Services";
+import ChooseUs from "@/components/common/home/ChooseUs";
+import ClientSay from "@/components/common/home/ClientSay";
+import Faq from "@/components/common/home/Faq";
+import Form from "@/components/common/home/Form";
+import BelowBanner from "@/components/custom/BelowBanner";
 
 const Home = () => {
-  const values = [
+  const BannerValues = [
     {
       title: "Our Services",
       description:
@@ -39,36 +39,45 @@ const Home = () => {
       image: img4,
     },
   ];
-
+  const BelowBannerValue = [
+    {
+      title: "Thank you for your Interest in SquareUp.",
+      description:
+        "We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.",
+    },
+  ];
   return (
     <div className="flex flex-col container  px-4 lg:px-0">
       <StudioBanner />
       <Companies />
       <Banner
-        title={values[0]?.title}
-        description={values[0]?.description}
-        overlayImage={values[0]?.image}
+        title={BannerValues[0]?.title}
+        description={BannerValues[0]?.description}
+        overlayImage={BannerValues[0]?.image}
       />
       <Services />
       <Banner
-        title={values[1]?.title}
-        description={values[1]?.description}
-        overlayImage={values[1]?.image}
+        title={BannerValues[1]?.title}
+        description={BannerValues[1]?.description}
+        overlayImage={BannerValues[1]?.image}
       />
       <ChooseUs />
       <Banner
-        title={values[2]?.title}
-        description={values[2]?.description}
-        overlayImage={values[2]?.image}
+        title={BannerValues[2]?.title}
+        description={BannerValues[2]?.description}
+        overlayImage={BannerValues[2]?.image}
       />
       <ClientSay />
       <Banner
-        title={values[3]?.title}
-        description={values[3]?.description}
-        overlayImage={values[3]?.image}
+        title={BannerValues[3]?.title}
+        description={BannerValues[3]?.description}
+        overlayImage={BannerValues[3]?.image}
       />
       <Faq />
-      <StartProject />
+      <BelowBanner
+        title={BelowBannerValue[0]?.title}
+        description={BelowBannerValue[0]?.description}
+      />
       <Form />
     </div>
   );

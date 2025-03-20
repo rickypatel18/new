@@ -31,8 +31,8 @@ const CustomButton = ({
   return (
     <button
       className={`flex justify-center items-center duration-300 ease-in-out rounded-lg font-medium px-6 py-3 leading-[28px]
-        ${display} ${width} ${padding}
-        ${bgColor} ${hoverBgColor}  
+        ${display} ${width} ${padding}  ${bgColor}
+        ${hoverBgColor}  
         ${textSize} ${fontWeight}
         ${textColor} ${hoverTextColor} `}
     >

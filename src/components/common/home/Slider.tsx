@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../assets/css/slider.css";
+import "../../../assets/css/slider.css";
 
 const Slider = () => {
   const minValue = 100;

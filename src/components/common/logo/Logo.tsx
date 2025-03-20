@@ -1,4 +1,4 @@
-import logo from "../../assets/images/logo/Logo.png";
+import logo from "../../../assets/images/logo/Logo.png";
 
 interface LogoProps {
   hide?: boolean; // Optional prop with boolean type

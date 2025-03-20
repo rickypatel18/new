@@ -102,7 +102,6 @@ const Faq = () => {
                       ? "text-[var(--color-text-secondary)]"
                       : " "
                   }`}
-                  
                 >
                   {String(item.id).padStart(2, "0")}
                 </div>
@@ -153,7 +152,6 @@ const Faq = () => {
                       ? "text-[var(--color-text-secondary)]"
                       : " "
                   }`}
-                  
                 >
                   {String(item.id).padStart(2, "0")}
                 </div>

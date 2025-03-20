@@ -1,7 +1,7 @@
-import img1 from "../../assets/images/banner/b5.png";
-import bg from "../../assets/images/bg/Bg-Design.png";
-import Logo from "./Logo";
-import CustomButton from "../custom/CustomButton";
+import img1 from "../../../assets/images/banner/b5.png";
+import bg from "../../../assets/images/bg/Bg-Design.png";
+import Logo from "../logo/Logo";
+import CustomButton from "../../custom/CustomButton";
 
 const StartProject = () => {
   return (

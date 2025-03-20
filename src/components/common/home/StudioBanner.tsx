@@ -1,6 +1,6 @@
-import img1 from "../../assets/images/bg/Bg-Design.png";
-import img2 from "../../assets/images/studio-banner/Abstract Design.png";
-import CustomButton from "../custom/CustomButton";
+import img1 from "../../../assets/images/bg/Bg-Design.png";
+import img2 from "../../../assets/images/studio-banner/Abstract Design.png";
+import CustomButton from "../../custom/CustomButton";
 
 const StudioBanner = () => {
   return (

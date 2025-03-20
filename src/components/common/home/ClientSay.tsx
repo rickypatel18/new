@@ -1,4 +1,4 @@
-import user from "../../assets/images/user/user.png";
+import user from "../../../assets/images/user/user.png";
 
 const ClientSay = () => {
   return (

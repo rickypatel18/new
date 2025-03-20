@@ -1,11 +1,11 @@
 // import React from 'react'
 
-import Logo from "./Logo";
-import NavMenuFooter from "./NavMenuFooter";
-import Media from "./Media";
+import Logo from "../logo/Logo";
 import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import NavMenuFooter from "./NavMenuFooter";
+import Media from "./Media";
 
 const navLinks = [
   { path: "/", label: "Home" },

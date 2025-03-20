@@ -11,7 +11,7 @@
   --color-text-secondary: #c5ff66;
   --color-text-gray: #98989a;
   --font-primary: "Barlow", sans-serif;
-  --color-border:  #262626;
+  --color-border: #262626;
 }
 
 body {
@@ -20,21 +20,36 @@ body {
   color: var(--color-text-primary);
 }
 
-.h2{
+.h2 {
   @apply text-[28px] md:text-[33px] lg:text-[38px] xl:text-[48px] font-semibold text-[#FFFFFF] text-center;
 }
-.h2-p{
-  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-center
+.h2-p {
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-center;
 }
-.h3{
-  @apply text-[20px] lg:text-[24px] xl:text-[30px] font-[600] text-start text-[#FFFFFF] 
+.h3 {
+  @apply text-[20px] lg:text-[24px] xl:text-[30px] font-[600] text-start text-[#FFFFFF];
 }
-.h3-p{
-  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-start
-}
-
-.form-heading{
-  @apply text-[16px] lg:text-[18px] xl:text-[22px] font-[500] flex text-start
+.h3-p {
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-start;
 }
 
+.form-heading {
+  @apply text-[16px] lg:text-[18px] xl:text-[22px] font-[500] flex text-start;
+}
 
+.h2-start {
+  @apply text-[28px] md:text-[33px] lg:text-[38px] xl:text-[48px] font-semibold text-[#FFFFFF] text-start;
+}
+.h3-28 {
+  @apply text-[18px] md:text-[20px] lg:text-[22px] xl:text-[28px] font-[500] text-start text-[#98989A];
+}
+.custom-container-22 {
+  @apply text-[16px] lg:text-[18px] xl:text-[22px] font-[400] flex text-start;
+}
+.service-title{
+  @apply text-[16px] xl:text-[20px] font-[500] text-start text-[#E6E6E6];
+}
+.service-description{
+  @apply text-[14px] lg:text-[16px] xl:text-[18px] font-[400] text-start 
+  text-[#E6E6E6];
+}
