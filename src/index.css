@@ -14,6 +14,11 @@
   --color-border: #262626;
 }
 
+body::-webkit-scrollbar {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  width: none;
+}
 body {
   @apply leading-normal;
   font-family: "Barlow", sans-serif;
@@ -46,10 +51,23 @@ body {
 .custom-container-22 {
   @apply text-[16px] lg:text-[18px] xl:text-[22px] font-[400] flex text-start;
 }
-.service-title{
+.service-title {
   @apply text-[16px] xl:text-[20px] font-[500] text-start text-[#E6E6E6];
 }
-.service-description{
+.service-description {
   @apply text-[14px] lg:text-[16px] xl:text-[18px] font-[400] text-start 
   text-[#E6E6E6];
+}
+.work-description {
+  @apply text-[14px] lg:text-[16px] xl:text-[18px] font-[400] text-start 
+  text-[#98989A];
+}
+.work-title-20 {
+  @apply text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-[500] text-start text-[#98989A];
+}
+.work-heading-24 {
+  @apply text-[18px] lg:text-[18px] xl:text-[24px] font-[500] text-start text-[#E6E6E6];
+}
+.work-26 {
+  @apply text-[20px] lg:text-[22px] xl:text-[26px] font-[500] text-start text-[#98989A];
 }

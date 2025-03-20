@@ -1,7 +1,5 @@
-import { FaPenFancy } from "react-icons/fa";
 import Service from "../Service";
-import { HiPuzzlePiece } from "react-icons/hi2";
-import { RiMedicineBottleFill } from "react-icons/ri";
+import img from "../../../../assets/images/services-icon/Icon (2).png"
 
 const mainCard = [
   {
@@ -12,87 +10,63 @@ const mainCard = [
     headings: [
       {
         value: "User Experience (UX) Design",
-        icons: [
+        items: [
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "User Research and Persona Development",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Information Architecture and Wireframing",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "User Research and Persona Development",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Information Architecture and Wireframing",
           },
         ],
       },
       {
         value: "User Interface (UI) Design",
-        icons: [
+        items: [
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Visual Branding & Identity",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Interactive Prototyping",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Visual Branding & Identity",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Interactive Prototyping",
           },
         ],
       },
       {
         value: "Graphic Design",
-        icons: [
+        items: [
           {
-            icon: (
-              <RiMedicineBottleFill className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Logo Design & Brand Identity",
           },
           {
-            icon: (
-              <RiMedicineBottleFill className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Marketing Collateral",
           },
           {
-            icon: (
-              <RiMedicineBottleFill className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Logo Design & Brand Identity",
           },
           {
-            icon: (
-              <RiMedicineBottleFill className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Marketing Collateral",
           },
         ],
@@ -107,87 +81,63 @@ const mainCard = [
     headings: [
       {
         value: "Software Development",
-        icons: [
+        items: [
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Backend Development",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Frontend Development",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Backend Development",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Frontend Development",
           },
         ],
       },
       {
         value: "Cloud & DevOps",
-        icons: [
+        items: [
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Cloud Infrastructure Setup",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "CI/CD Pipelines",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Cloud Infrastructure Setup",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "CI/CD Pipelines",
           },
         ],
       },
       {
         value: "Quality Assurance",
-        icons: [
+        items: [
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Automated Testing",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Performance Optimization",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Automated Testing",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Performance Optimization",
           },
         ],
@@ -202,87 +152,63 @@ const mainCard = [
     headings: [
       {
         value: "Agile & Scrum",
-        icons: [
+        items: [
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Agile Coaching",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Scrum Mastery",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Agile Coaching",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Scrum Mastery",
           },
         ],
       },
       {
         value: "Risk & Resource Management",
-        icons: [
+        items: [
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Risk Assessment",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Budget Planning",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Risk Assessment",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Budget Planning",
           },
         ],
       },
       {
         value: "Project Delivery",
-        icons: [
+        items: [
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Stakeholder Communication",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "On-time Delivery",
           },
           {
-            icon: (
-              <FaPenFancy className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "Stakeholder Communication",
           },
           {
-            icon: (
-              <HiPuzzlePiece className="w-6 h-6 lg:w-6 lg:h-6 xl:w-10 xl:h-10" />
-            ),
+            imageUrl: img,
             heading: "On-time Delivery",
           },
         ],

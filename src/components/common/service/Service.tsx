@@ -1,6 +1,5 @@
 import CustomCard from "@/components/custom/CustomCard";
 import CustomContainer from "@/components/custom/CustomContainer";
-import { ReactNode } from "react";
 
 interface Data {
   title: string;
@@ -8,8 +7,8 @@ interface Data {
   customcontainervalue: string;
   headings: {
     value: string;
-    icons: {
-      icon: ReactNode;
+    items: {
+      imageUrl: string;
       heading: string;
     }[];
   }[];
@@ -29,11 +28,11 @@ const Service = ({ data }: { data: Data }) => {
           <CustomContainer>{data.customcontainervalue}</CustomContainer>
         </div>
       </div>
-      
+
       {/* Cards Section */}
       <div className="pt-12 gap-12">
-        {data.headings.map((heading, index) => (
-          <CustomCard key={index} heading={heading} />
+        {data.headings.map((heading) => (
+          <CustomCard key={heading.value} heading={heading} />
         ))}
       </div>
     </div>

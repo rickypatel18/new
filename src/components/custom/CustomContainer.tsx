@@ -10,11 +10,11 @@ const CustomContainer = ({
   className = "",
 }: CustomContainerProps) => {
   return (
-    <div
-      className={`w-fit border border-[var(--color-border)] py-3 px-4 rounded-lg bg-[var(--color-background)] ${className}`}
+    <button
+      className={`w-fit border border-[var(--color-border)] py-2 px-2 lg:py-3 lg:px-4 rounded-lg bg-[var(--color-background)] ${className}`}
     >
       {children}
-    </div>
+    </button>
   );
 };
 

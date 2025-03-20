@@ -7,7 +7,7 @@ import CustomButton from "@/components/custom/CustomButton";
 const navLinks = [
   { path: "/", label: "Home" },
   { path: "/services", label: "Services" },
-  { path: "/work", label: "Work" },
+  { path: "/works", label: "Work" },
   { path: "/process", label: "Process" },
   { path: "/about", label: "About" },
   { path: "/careers", label: "Careers" },
