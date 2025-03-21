@@ -1,5 +1,6 @@
 import Service from "../Service";
 import img from "../../../../assets/images/services-icon/Icon (2).png"
+import img1 from "../../../../assets/images/services-icon/Icon (3).png"
 
 const mainCard = [
   {
@@ -16,7 +17,7 @@ const mainCard = [
             heading: "User Research and Persona Development",
           },
           {
-            imageUrl: img,
+            imageUrl: img1,
             heading: "Information Architecture and Wireframing",
           },
           {

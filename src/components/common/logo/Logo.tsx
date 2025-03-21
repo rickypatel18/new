@@ -11,7 +11,7 @@ const Logo = ({ hide = false }: LogoProps) => {
         <img
           src={logo}
           alt="logo"
-          className="w-[32px] h-[36px] lg:w-[25px] lg:h-[28px] xl:w-[38px] xl:h-[43px]"
+          className="w-[30px] h-[32px] lg:w-[25px] lg:h-[28px] xl:w-[38px] xl:h-[43px]"
         />
       </div>
       <h3

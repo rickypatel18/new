@@ -12,6 +12,7 @@ const Services = () => {
       image: img1,
     },
   ];
+  
   const BelowBannerValue = [
     {
       title: "Let us Bring your Ideas to Life in the Digital World.",

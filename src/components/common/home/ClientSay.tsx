@@ -3,7 +3,7 @@ import user from "../../../assets/images/user/user.png";
 const ClientSay = () => {
   return (
     <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
-      <div className="flex flex-col justify-between gap-10 py-[40px] px-[20px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
+      <div className="flex flex-col justify-between gap-10 py-4 px-2 sm:py-[40px] sm:px-[20px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
         <div className=" flex flex-col gap-10">
           <div className="flex flex-col gap-6 justify-start items-center">
             <h3 className="!text-[#d8ff99] h3">
@@ -40,7 +40,7 @@ const ClientSay = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between gap-10 py-[40px] px-[24px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
+      <div className="flex flex-col justify-between gap-10 py-4 px-2 sm:py-[40px] sm:px-[20px]  md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
         <div className=" flex flex-col gap-10">
           <div className="flex flex-col gap-6 justify-start items-center">
             <h3 className="!text-[#d8ff99] h3">
@@ -77,7 +77,7 @@ const ClientSay = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between gap-10 py-[40px] px-[24px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
+      <div className="flex flex-col justify-between gap-10 py-4 px-2 sm:py-[40px] sm:px-[20px]  md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
         <div className=" flex flex-col gap-10">
           <div className="flex flex-col gap-6 justify-start items-center">
             <h3 className="!text-[#d8ff99] h3">
@@ -114,7 +114,7 @@ const ClientSay = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between gap-10 py-[40px] px-[24px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
+      <div className="flex flex-col justify-between gap-10 py-4 px-2 sm:py-[40px] sm:px-[20px]  md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
         <div className=" flex flex-col gap-10">
           <div className="flex flex-col gap-6 justify-start items-center">
             <h3 className="!text-[#d8ff99] h3">
@@ -151,7 +151,7 @@ const ClientSay = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between gap-10 py-[40px] px-[24px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
+      <div className="flex flex-col justify-between gap-10 py-4 px-2 sm:py-[40px] sm:px-[20px]  md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
         <div className=" flex flex-col gap-10">
           <div className="flex flex-col gap-6 justify-start items-center">
             <h3 className="!text-[#d8ff99] h3">
@@ -188,7 +188,7 @@ const ClientSay = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between gap-10 py-[40px] px-[24px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
+      <div className="flex flex-col justify-between gap-10 py-4 px-2 sm:py-[40px] sm:px-[20px]  md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
         <div className=" flex flex-col gap-10">
           <div className="flex flex-col gap-6 justify-start items-center">
             <h3 className="!text-[#d8ff99] h3">
