@@ -4,8 +4,6 @@ const Career = () => {
   return (
     <div className="flex flex-col container px-4 lg:px-0">
       <CareerSquareUp />
-    </div>
-  );
-};
+</div>)}
 
 export default Career;

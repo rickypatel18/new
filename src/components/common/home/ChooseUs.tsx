@@ -52,8 +52,5 @@ const ChooseUs = () => {
           </div>
         );
       })}
-    </div>
-  );
-};
-
-export default ChooseUs;
+      </div>
+  )}
