@@ -54,3 +54,5 @@ const ChooseUs = () => {
       })}
       </div>
   )}
+
+  export default ChooseUs;
