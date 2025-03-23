@@ -24,7 +24,7 @@ const NavMenuHeader = ({ links, closeMenu }: NavMenuProps) => {
                   isActive ? "bg-[var(--color-background)] nav-hover-text" : ""
                 }`
               }
-              onClick={closeMenu}
+              onClick={closeMenu} 
             >
               {label}
             </NavLink>
