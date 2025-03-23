@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --color-primary: #9eff00;
+  --color-hover-primary: #a9e649;
+  --color-secondary: #d8ff99;
+  --color-background: #262626;
+  --color-foreground: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #c5ff66;
+  --color-text-gray: #98989a;
+  --font-primary: "Barlow", sans-serif;
+  --color-border: #262626;
+}
+
+body::-webkit-scrollbar {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  width: none;
+}
+body {
+  @apply leading-normal;
+  font-family: "Barlow", sans-serif;
+  color: var(--color-text-primary);
+}
+
+.h2 {
+  @apply text-[28px] md:text-[33px] lg:text-[38px] xl:text-[48px] font-semibold text-[#FFFFFF] text-center;
+}
+.h2-p {
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-center;
+}
+.h3 {
+  @apply text-[20px] lg:text-[24px] xl:text-[30px] font-[600] text-start text-[#FFFFFF];
+}
+.h3-p {
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-start;
+}
+
+.form-heading {
+  @apply text-[16px] lg:text-[18px] xl:text-[22px] font-[500] flex text-start;
+}
+
+.h2-start {
+  @apply text-[28px] md:text-[33px] lg:text-[38px] xl:text-[48px] font-semibold text-[#FFFFFF] text-start;
+}
+.h3-28 {
+  @apply text-[18px] md:text-[20px] lg:text-[22px] xl:text-[28px] font-[500] text-start text-[#98989A];
+}
+.custom-container-22 {
+  @apply text-[16px] lg:text-[18px] xl:text-[22px] font-[400] flex text-start;
+}
+.service-title {
+  @apply text-[16px] xl:text-[20px] font-[500] text-start text-[#E6E6E6];
+}
+.service-description {
+  @apply text-[14px] lg:text-[16px] xl:text-[18px] font-[400] text-start 
+  text-[#E6E6E6];
+}
+.work-description {
+  @apply text-[14px] lg:text-[16px] xl:text-[18px] font-[400] text-start 
+  text-[#98989A];
+}
+.work-title-20 {
+  @apply text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-[500] text-start text-[#98989A];
+}
+.work-heading-24 {
+  @apply text-[18px] lg:text-[18px] xl:text-[24px] font-[500] text-start text-[#E6E6E6];
+}
+.work-26 {
+  @apply p-0 m-0 text-[20px] lg:text-[22px] xl:text-[26px] font-[500] text-start text-[#98989A];
+}
+.process-title-135px {
+  @apply text-[#D8FF99] font-[600] text-[80px] lg:text-[120px] xl:text-[135px] p-0 m-0 leading-none;
+}
+.process-heading-30px {
+  @apply text-[20px] lg:text-[24px] xl:text-[30px] leading-none pb-4  lg:pb-5  xl:pb-6 pl-0 lg:pl-2 w-full h-fit font-[500]  border-b border-[var(--color-background)] ;
+}
+.process-description-18px {
+  @apply text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] leading-normal  text-[#98989A];
+}
+.text-banner-p1{
+  @apply text-[20px] lg:text-[24px] xl:text-[30px] font-[500] text-[#98989A]
+}
+.text-banner-p2{
+  @apply text-[14px] lg:text-[16px] xl:text-[18px] font-[400] text-[#98989A]
+}
+.text-banner-p3 {
+  @apply  text-[18px] xl:text-[20px] font-[400] text-start text-[#98989A];
+}
+.text-banner-p4 {
+  @apply  text-[16px] xl:text-[20px] font-[400] text-start text-[#FFFFFF];
+}
