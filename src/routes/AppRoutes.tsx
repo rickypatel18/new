@@ -8,6 +8,7 @@ import Process from "@/pages/Process";
 import Project from "@/pages/Project";
 import Services from "@/pages/Services";
 import Work from "@/pages/Work";
+import CardDetailPage from "@/views/work/CardDetailPage";
 import { Routes, Route } from "react-router-dom";
 
 const AppRoutes = () => {
@@ -17,6 +18,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/card/:id" element={<CardDetailPage />} />
         <Route path="/process" element={<Process />} />
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Career />} />

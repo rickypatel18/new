@@ -1,6 +1,7 @@
 import CustomContainer from "@/components/custom/CustomContainer";
 import { ImArrowUpRight2 } from "react-icons/im";
 import img from "../../assets/images/work/Image.png";
+import { useNavigate } from "react-router-dom";
 
 interface CardProps {
   cardData: {
@@ -12,12 +13,16 @@ interface CardProps {
 }
 
 const WorkSquareCard = ({ cardData }: CardProps) => {
+
+  const navigate = useNavigate();
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {cardData.map((card, index) => (
         <div
           key={index}
-          className="flex flex-col border gap-5 lg:gap-7 border-[var(--color-background)] pb-10 md:pb-15 lg:pb-20 xl:pb-25"
+          className="flex flex-col border gap-5 lg:gap-7 border-[var(--color-background)] pb-10 md:pb-15 lg:pb-20 xl:pb-25 cursor-pointer"
+          onClick={() => navigate(`/card/${index}`, { state: { card } })}
         >
           <div className=" py-4 lg:py-5 xl:py-6 work-26 border-b border-[var(--color-background)]">
             <p className="px-4 md:px-6 lg:px-8 xl:px-10">{card.heading}</p>
