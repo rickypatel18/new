@@ -2,7 +2,7 @@ import ProcessSquareUp from "@/components/common/process/ProcessSquareUp";
 
 const Process = () => {
   return (
-    <div className="flex flex-col container lg:px-0">
+    <div className="flex flex-col container ">
       <ProcessSquareUp />
     </div>
   );

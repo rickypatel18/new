@@ -10,7 +10,7 @@ interface BannerProps {
 const Banner = ({ title, description, overlayImage }: BannerProps) => {
   return (
     <div
-      className="max-w-container  banner h-[250px] lg:h-[280px] xl:h-[336px] bg-[length:30px_20px,100%_100%] lg:bg-[length:30px_20px,100%_100%] xl:bg-[length:30px_20px,100%_100%] bg-center bg-repeat  flex justify-center items-center  "
+      className="max-w-container banner h-[250px] lg:h-[280px] xl:h-[336px] bg-[length:30px_20px,100%_100%] lg:bg-[length:30px_20px,100%_100%] xl:bg-[length:30px_20px,100%_100%] bg-center bg-repeat  flex justify-center items-center  "
       style={{
         backgroundImage: `url(${bg}), url(${overlayImage})`,
       }}

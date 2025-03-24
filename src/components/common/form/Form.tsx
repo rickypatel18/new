@@ -42,7 +42,7 @@ const Form = () => {
                 id="chk1"
                 className="custom-checkbox rounded-b-md"
               />
-              <label htmlFor="chk1">Option 1</label>
+              <label htmlFor="chk1">Web Design</label>
             </div>
             <div className="flex items-center gap-2">
               <input
@@ -50,7 +50,7 @@ const Form = () => {
                 id="chk2"
                 className="custom-checkbox rounded-b-md "
               />
-              <label htmlFor="chk2">Option 2</label>
+              <label htmlFor="chk2">Collaboration</label>
             </div>
             <div className="flex items-center gap-2">
               <input
@@ -58,7 +58,7 @@ const Form = () => {
                 id="chk3"
                 className="custom-checkbox rounded-b-md"
               />
-              <label htmlFor="chk3">Option 3</label>
+              <label htmlFor="chk3">Mobile App Design</label>
             </div>
             <div className="flex items-center gap-2">
               <input
@@ -66,7 +66,7 @@ const Form = () => {
                 id="chk4"
                 className="custom-checkbox rounded-b-md"
               />
-              <label htmlFor="chk4">Option 4</label>
+              <label htmlFor="chk4">Others</label>
             </div>
           </div>
         </div>

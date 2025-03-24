@@ -2,7 +2,7 @@ import ContactSquareup from "@/components/common/contact/ContactSquareup";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col container lg:px-0">
+    <div className="flex flex-col container ">
       <ContactSquareup />
     </div>
   );
