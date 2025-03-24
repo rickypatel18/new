@@ -7,7 +7,7 @@ import CustomButton from "@/components/custom/CustomButton";
 const navLinks = [
   { path: "/", label: "Home" },
   { path: "/services", label: "Services" },
-  { path: "/works", label: "Work" },
+  { path: "/work", label: "Work" },
   { path: "/process", label: "Process" },
   { path: "/about", label: "About" },
   { path: "/careers", label: "Careers" },
@@ -17,18 +17,18 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="container mx-auto flex justify-between items-center py-[20px] border-b border-[var(--color-background)] px-4  ">
+    <header className="container mx-auto flex justify-between items-center py-5 border-b border-[var(--color-background)]  ">
       <div className=" lg:w-[28%] flex items-start justify-start ">
         <Logo hide={false} />
       </div>
 
-      <div className="flex flex-row-reverse xl:flex-row items-center xl:justify-between gap-[10px] lg:w-[72%] ">
+      <div className="flex flex-row-reverse xl:flex-row items-center xl:justify-between gap-2 lg:w-[72%] ">
         <nav className="hidden xl:flex">
           <NavMenuHeader links={navLinks} />
         </nav>
 
         <button
-          className="xl:hidden rounded-[6px] flex justify-center items-center text-2xl p-[6px] focus:outline-none bg-[var(--color-background)]"
+          className="xl:hidden rounded-md flex justify-center items-center text-2xl p-1 focus:outline-none bg-[var(--color-background)]"
           onClick={() => setIsMenuOpen(true)}
         >
           <FiMenu className="text-[#D8FF99]" />

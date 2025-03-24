@@ -6,7 +6,7 @@ import Slider from "./Slider.js";
 const Form = () => {
   return (
     <form action="" className="container flex justify-center items-center ">
-      <div className="flex flex-col w-full  lg:w-[850px] xl:w-[1000px] 2xl:w-[1200px]  py-7 md:p-10 lg:p-12 xl:p-15 gap-3 md:gap-5 xl:gap-7 ">
+      <div className="flex flex-col w-full lg:w-[850px] xl:w-[1000px] 2xl:w-[1200px] px-4 py-7 md:p-10 lg:p-12 xl:p-15 gap-3 md:gap-5 xl:gap-7 ">
         <div className="flex flex-col lg:flex-row justify-between gap-3 md:gap-5 xl:gap-7">
           <div className="flex flex-col border border-[var(--color-border)] bg-[#24242480] w-full py-3 px-4 lg:py-5 lg:px-7 gap-3 lg:gap-4 rounded-md">
             <label htmlFor="fullName" className="form-heading">

@@ -59,7 +59,7 @@ const AboutSquareUp = () => {
         overlayImage={values?.image}
       />
       <AboutSquareUpCard />
-      <div className="flex flex-col container  pt-10 md:pt-15 lg:pt-20 xl:pt-25 gap-10 lg:gap-20 xl:gap-25 border border-[var(--color-background)]">
+      <div className="flex flex-col container pt-10 md:pt-15 lg:pt-20 xl:pt-25 gap-10 lg:gap-20 xl:gap-25 border border-[var(--color-background)]">
         <h2 className="px-4 md:px-8 lg:px-12 gap-12 text-[38px] md:text-[42px] lg:text-[48px] xl:text-[58px] font-[600] ">
           Our Story
         </h2>

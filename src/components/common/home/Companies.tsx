@@ -8,7 +8,7 @@ import img6 from "../../../assets/images/company-logo/Logo (5).png";
 const Companies = () => {
   return (
     <div className="container relative gap-5 border border-[var(--color-border)] flex flex-col items-center px-4 py-8 lg:p-8">
-      <div className="absolute w-[250px] xl:w-[300px] top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-[24px] py-[14px] xl:px-[34px] xl:py-[20px] bg-[#1A1A1A] border border-[var(--color-background)] rounded-[100px] ">
+      <div className="absolute w-[250px] xl:w-[300px] top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-6 py-4 xl:px-8 xl:py-5 bg-[#1A1A1A] border border-[var(--color-background)] rounded-[100px] ">
         <p className="text-[14px] xl:text-[18px] font-[500] text-center">
           Trusted By 250+ Companies
         </p>

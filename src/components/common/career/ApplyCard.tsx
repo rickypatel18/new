@@ -44,7 +44,7 @@ const ApplyCard = ({ applyData }: { applyData: ApplyData[] }) => {
                   <p className="h3-p">{job.description}</p>
                 </div>
 
-                <button className="rounded-[8px] p-[16px] bg-[#262626] text-[14px] lg:text-[16px] xl:text-[18px] font-[500]">
+                <button className="rounded-lg p-4 bg-[#262626] text-[14px] lg:text-[16px] xl:text-[18px] font-[500]">
                   Learn More
                 </button>
               </div>

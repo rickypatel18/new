@@ -6,7 +6,7 @@ interface PageLogoProps {
 
 const PageLogo = ({ hide = false }: PageLogoProps) => {
   return (
-    <div className=" flex gap-[5px] justify-start items-center py-[10px] max-w-[177px] ">
+    <div className=" flex gap-1 justify-start items-center py-2 max-w-[177px] ">
       <div className=" flex justify-center items-center bg-[var(--color-primary)] rounded-[10px] h-17 w-17 lg:h-20 lg:w-20 xl:w-30 xl:h-30  ">
         <img
           src={logo}

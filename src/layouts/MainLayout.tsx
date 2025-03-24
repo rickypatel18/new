@@ -8,9 +8,9 @@ interface MainLayoutProps {
 
 const MainLayout = ({ children }: MainLayoutProps) => {
   return (
-    <div className="flex flex-col min-h-screen bg-[var(--color-foreground)]">
+    <div className="flex flex-col min-h-screen bg-[var(--color-foreground)] px-4">
       <Header />
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow ">{children}</main>
       <Footer />
     </div>
   );

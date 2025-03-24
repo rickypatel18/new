@@ -14,7 +14,7 @@ interface NavMenuProps {
 const NavMenuFooter = ({ links, closeMenu }: NavMenuProps) => {
   return (
     <nav className=" ">
-      <ul className="flex justify-center items-center flex-wrap gap-[18px] md:gap-[20px] lg:gap-[20px] xl:gap-[28px]  h-[68px] lg:h-[24px] xl:h-[27px] w-full lg:w-[490px] xl:w-[574px] ">
+      <ul className="flex justify-center items-center flex-wrap gap-4 md:gap-5 lg:gap-6 xl:gap-7 h-[68px] lg:h-[24px] xl:h-[27px] w-full lg:w-[490px] xl:w-[574px] ">
         {links.map(({ path, label }) => (
           <li key={path}>
             <NavLink

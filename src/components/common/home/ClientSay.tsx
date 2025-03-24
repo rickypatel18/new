@@ -62,7 +62,7 @@ const ClientSay = () => {
     <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
       {data.map((d,index) => {
         return (
-          <div key={index} className="flex flex-col justify-between gap-10 py-4 px-4 sm:py-[40px] sm:px-[20px] md:py-[60px] md:px-[40px] lg:py-[80px] lg:px-[60px] xl:py-[100px] xl:px-[80px] border border-[var(--color-border)]">
+          <div key={index} className="flex flex-col justify-between gap-10 py-4 px-4 sm:py-10 sm:px-5 md:py-15 md:px-10 lg:py-20 lg:px-15 xl:py-25 xl:px-20 border border-[var(--color-border)]">
             <div className=" flex flex-col gap-10">
               <div className="flex flex-col gap-6 justify-start items-center">
                 <h3 className="!text-[#d8ff99] h3">{d.heading}</h3>
@@ -78,7 +78,7 @@ const ClientSay = () => {
                       className="w-full h-full object-cover rounded-[8px]"
                     />
                   </div>
-                  <div className="flex flex-col gap-[2px]">
+                  <div className="flex flex-col gap-1">
                     <p className=" text-[16px] xl:text-[20px]">{d.cName}</p>
                     <p className="h3-p">{d.cDesignation}</p>
                   </div>

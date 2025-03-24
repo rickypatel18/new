@@ -45,7 +45,7 @@ const ChooseUs = () => {
                 <h3 className="h3">{d.heading}</h3>
               </div>
 
-              <div className="flex flex-col gap-[20px]">
+              <div className="flex flex-col gap-5">
                 <p className="h3-p">{d.description}</p>
               </div>
             </div>

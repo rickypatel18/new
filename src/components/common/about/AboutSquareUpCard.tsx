@@ -30,13 +30,13 @@ const AboutSquareUpCard = () => {
           backgroundImage: `url(${bg}), url(${img})`,
         }}
       >
-        <div className="absolute w-[50%] top-[50%] left-0 before:content-[''] before:absolute before:w-full before:h-[4px] before:top-1/2 before:left-0 before:-translate-y-3/4 before:bg-gradient-to-l before:from-[#9eff00] before:via-[#9eff00bb] before:to-transparent"></div>
+        <div className="absolute w-[50%] top-[50%] left-0 before:content-[''] before:absolute before:w-full before:h-1 before:top-1/2 before:left-0 before:-translate-y-3/4 before:bg-gradient-to-l before:from-[#9eff00] before:via-[#9eff00bb] before:to-transparent"></div>
 
-        <div className="absolute w-[50%] top-[50%] right-0 before:content-[''] before:absolute before:w-full before:h-[4px] before:top-1/2 before:left-0 before:-translate-y-3/4 before:bg-gradient-to-l before:from-trasparent before:via-[#9eff00bb] before:to-[#9eff00]"></div>
+        <div className="absolute w-[50%] top-[50%] right-0 before:content-[''] before:absolute before:w-full before:h-1 before:top-1/2 before:left-0 before:-translate-y-3/4 before:bg-gradient-to-l before:from-trasparent before:via-[#9eff00bb] before:to-[#9eff00]"></div>
 
-        <div className="absolute w-full h-full after:content-[''] after:absolute after:w-[4px] after:h-1/2 after:top-1/4 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:bg-gradient-to-b after:from-transparent after:via-[#9eff00bb] after:to-[#9eff00]"></div>
+        <div className="absolute w-full h-full after:content-[''] after:absolute after:w-1 after:h-1/2 after:top-1/4 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:bg-gradient-to-b after:from-transparent after:via-[#9eff00bb] after:to-[#9eff00]"></div>
 
-        <div className="absolute w-full h-full after:content-[''] after:absolute after:w-[4px] after:h-1/2 after:-bottom-1/4 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:bg-gradient-to-b after:from-[#9eff00] after:via-[#9eff00bb] after:to-transparent"></div>
+        <div className="absolute w-full h-full after:content-[''] after:absolute after:w-1 after:h-1/2 after:-bottom-1/4 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:bg-gradient-to-b after:from-[#9eff00] after:via-[#9eff00bb] after:to-transparent"></div>
 
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <PageLogo hide={true}></PageLogo>

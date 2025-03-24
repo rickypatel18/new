@@ -20,7 +20,7 @@ const NavMenuHeader = ({ links, closeMenu }: NavMenuProps) => {
             <NavLink
               to={path}
               className={({ isActive }) =>
-                `block py-[10px] px-[13px] md:py-[12px] md:px-[18px] lg:py-[12px] lg:px-[23px] xl:py-[14px] xl:px-[28px] rounded-[8px] nav-text text-[13px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[500] hover:text-primary transition ${
+                `block py-3 px-3 md:py-3 md:px-4 lg:py-3 lg:px-6 xl:py-4 xl:px-7 rounded-lg nav-text text-[13px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-[500] hover:text-primary transition ${
                   isActive ? "bg-[var(--color-background)] nav-hover-text" : ""
                 }`
               }

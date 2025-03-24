@@ -6,7 +6,7 @@ interface LogoProps {
 
 const Logo = ({ hide = false }: LogoProps) => {
   return (
-    <div className=" flex gap-[5px] justify-start items-center py-[10px]  max-w-[177px] ">
+    <div className=" flex gap-1 justify-start items-center py-2  max-w-[177px] ">
       <div className=" flex justify-center items-center bg-[var(--color-primary)] rounded-[10px] h-[40px] w-[40px] xl:w-[60px] xl:h-[60px]  ">
         <img
           src={logo}

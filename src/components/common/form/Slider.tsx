@@ -63,7 +63,7 @@ const Slider = () => {
       {/* Display values above range thumbs */}
       <div className="relative flex justify-between ">
         <span
-          className="absolute text-sm font-semibold text-white bg-transparent top-4 "
+          className="absolute text-sm font-semibold text-white bg-transparent top-5 "
           style={{
             left: `${(min / maxValue) * 100}%`,
             transform: "translateX(-50%)",
@@ -72,7 +72,7 @@ const Slider = () => {
           ${min}
         </span>
         <span
-          className="absolute text-sm font-semibold text-white bg-transparent 0 top-4"
+          className="absolute text-sm font-semibold text-white bg-transparent 0 top-5"
           style={{
             left: `${(max / maxValue) * 100}%`,
             transform: "translateX(-50%)",

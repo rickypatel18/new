@@ -39,13 +39,13 @@ const ContactSquareup = () => {
             </div>
           </CustomContainer>
           <CustomContainer className="flex justify-center items-center w-full lg:w-fit">
-            <div className="border-b border-[var(--color-background)] flex justify-center items-center py-3 md:py-5 lg:py-[0px] gap-[10px]">
+            <div className="border-b border-[var(--color-background)] flex justify-center items-center py-3 md:py-5 lg:py-0 gap-2">
               <FaPhoneAlt className="h-[24px] w-[24px] lg:h-[22px] lg:w-[22px] xl:h-[24px] xl:w-[24px] text-[var(--color-primary)] " />
               <p>+91 91813 23 2309</p>
             </div>
           </CustomContainer>
           <CustomContainer className="flex justify-center items-center w-full lg:w-fit">
-            <div className="border-b border-[var(--color-background)] flex justify-center items-center py-3 md:py-5 lg:py-[0px] gap-[10px]">
+            <div className="border-b border-[var(--color-background)] flex justify-center items-center py-3 md:py-5 lg:py-0 gap-2">
               <FaLocationDot className="h-[24px] w-[24px] lg:h-[22px] lg:w-[22px] xl:h-[24px] xl:w-[24px] text-[var(--color-primary)] " />
               <p>Find Location</p>
             </div>
