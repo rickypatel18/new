@@ -31,7 +31,7 @@ const ChooseUs = () => {
     <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
       {data.map((d,index) => {
         return (
-          <div key={index} className="flex flex-col justify-between p-2 sm:p-4 md:p-6 lg:p-10 xl:p-12 gap-20 border border-[var(--color-border)]">
+          <div key={index} className="flex flex-col justify-between p-4 md:p-6 lg:p-10 xl:p-12 gap-20 border border-[var(--color-border)]">
             <div className=" flex flex-col gap-10">
               <div className="flex gap-5 justify-start items-center">
                 <div className="bg-gradient-to-t from-transparent to-[#242424] h-[58px] w-[58px] lg:h-[70px] lg:w-[70px] xl:h-[88px] xl:w-[88px] rounded-[12px] flex justify-center items-center">

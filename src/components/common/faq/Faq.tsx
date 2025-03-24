@@ -92,7 +92,7 @@ const Faq = () => {
           {faqData.slice(0, splitIndex).map((item) => (
             <div key={item.id} className="border border-[var(--color-border)]">
               <div
-                className="flex justify-between items-start py-5 lg:py-6 xl:py-7  px-2 md:px-4 lg:px-10 xl:px-12 gap-4 md:gap-5 lg:gap-6 xl:gap-7 cursor-pointer"
+                className="flex justify-between items-start py-5 lg:py-6 xl:py-7  px-4 md:px-6 lg:px-10 xl:px-12 gap-4 md:gap-5 lg:gap-6 xl:gap-7 cursor-pointer"
                 onClick={() => toggleFaq(item.id)}
               >
                 {/* Index Box */}
@@ -142,7 +142,7 @@ const Faq = () => {
           {faqData.slice(splitIndex).map((item) => (
             <div key={item.id} className="border border-[var(--color-border)]">
               <div
-                className="flex justify-between items-start py-5 lg:py-6 xl:py-7  px-2 md:px-4 lg:px-10 xl:px-12 gap-4 md:gap-5 lg:gap-6 xl:gap-7 cursor-pointer"
+                className="flex justify-between items-start py-5 lg:py-6 xl:py-7  px-4 md:px-6 lg:px-10 xl:px-12 gap-4 md:gap-5 lg:gap-6 xl:gap-7 cursor-pointer"
                 onClick={() => toggleFaq(item.id)}
               >
                 {/* Index Box */}

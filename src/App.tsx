@@ -7,6 +7,8 @@ import Process from "./pages/Process";
 import About from "./pages/About";
 import Career from "./pages/Career";
 import Contact from "./pages/Contact";
+import Project from "./pages/Project";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -20,7 +22,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/careers" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
+          <Route path="/project" element={<Project />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </MainLayout>
     </Router>
@@ -28,13 +31,3 @@ const App = () => {
 };
 
 export default App;
-
-// import MainLayout from "@/layouts/MainLayout";
-
-// <Provider store={store}>
-// <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" />
-// <AuthProvider>
-// <BrowserRouter>{/* <Routing /> */}
-// </BrowserRouter>;
-// </AuthProvider>
-// </Provider>

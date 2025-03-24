@@ -20,9 +20,9 @@ const WorkSquareCard = ({ cardData }: CardProps) => {
           className="flex flex-col border gap-5 lg:gap-7 border-[var(--color-background)] pb-10 md:pb-15 lg:pb-20 xl:pb-25"
         >
           <div className=" py-4 lg:py-5 xl:py-6 work-26 border-b border-[var(--color-background)]">
-            <p className="px-2 md:px-6 lg:px-8 xl:px-10">{card.heading}</p>
+            <p className="px-4 md:px-6 lg:px-8 xl:px-10">{card.heading}</p>
           </div>
-          <div className="px-2 md:px-6 lg:px-8 xl:px-10 gap-4 md:gap-5 lg:gap-6 xl:gap-7 flex flex-col">
+          <div className="px-4 md:px-6 lg:px-8 xl:px-10 gap-4 md:gap-5 lg:gap-6 xl:gap-7 flex flex-col">
             <div>
               <img src={img} alt={card.title} />
             </div>

@@ -1,6 +1,6 @@
 import BelowBanner from "@/components/custom/BelowBanner";
 import SubConatainer from "@/components/custom/SubConatainer";
-import ProcessSquareCard from "./ProcessSquareCard";
+import SquareCard from "../squareCard/SquareCard";
 import Banner from "@/components/custom/Banner";
 import img1 from "../../../assets/images/banner/b1.png";
 
@@ -84,7 +84,7 @@ const ProcessSquareUp = () => {
       />
       <div className="flex flex-col container lg:px-0 border border-[var(--color-background)] pt-10 md:pt-15 lg:pt-20 xl:pt-30 gap-8 lg:gap-10 xl:gap-12">
         <SubConatainer data={data} />
-        <ProcessSquareCard cardData={cardData} headingColor="text-[#98989A]" />
+        <SquareCard cardData={cardData} headingColor="text-[#98989A]" />
         <BelowBanner
           title={BelowBannerValue?.title}
           description={BelowBannerValue?.description}

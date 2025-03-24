@@ -1,7 +1,7 @@
 import logo from "../../../assets/images/logo/Logo.png";
 
 interface LogoProps {
-  hide?: boolean; // Optional prop with boolean type
+  hide?: boolean;
 }
 
 const Logo = ({ hide = false }: LogoProps) => {

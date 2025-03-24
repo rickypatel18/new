@@ -62,6 +62,7 @@ const Header = () => {
         )}
 
         <CustomButton
+          to="/contact"
           display="hidden md:flex"
           text="Contact Us"
           textSize="text-[13px] md:text-[14px] lg:text-[16px] xl:text-[18px]"

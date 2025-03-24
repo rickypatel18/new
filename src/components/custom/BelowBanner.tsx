@@ -11,7 +11,7 @@ interface BelowBannerProps {
 const BelowBanner = ({ title, description }: BelowBannerProps) => {
   return (
     <div
-      className="container p-1 h-[420px] lg:h-[483px] xl:h-[597px] 
+      className="container p-2 h-[425px] lg:h-[483px] xl:h-[597px] 
              bg-[length:30px_20px,100%_100%] 
              lg:bg-[length:30px_20px,100%_100%] 
              xl:bg-[length:30px_20px,100%_100%] 
@@ -31,6 +31,7 @@ const BelowBanner = ({ title, description }: BelowBannerProps) => {
           <p className="h3-p !text-center">{description}</p>
         </div>
         <CustomButton
+          to="/project"
           display="flex md:flex"
           text="Start Project"
           textSize="text-[13px] md:text-[14px] lg:text-[16px] xl:text-[18px]"

@@ -28,6 +28,7 @@ const StartProject = () => {
           touch with us.
         </p>
         <CustomButton
+          to="/project"
           display="flex md:flex"
           text="Start Project"
           textSize="text-[13px] md:text-[14px] lg:text-[16px] xl:text-[18px]"

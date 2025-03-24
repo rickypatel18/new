@@ -19,7 +19,7 @@
           } else {
             range.style.left = (minVal / rangeInput[0].max) * 100 + "%";
             range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
-            priceDisplay.textContent = minVal + " - " + maxVal; // Update displayed range
+            priceDisplay.textContent = minVal + " - " + maxVal; 
           }
         });
       });

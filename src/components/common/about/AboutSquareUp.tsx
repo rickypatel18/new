@@ -1,5 +1,5 @@
 import BelowTextBanner from "@/components/custom/BelowTextBanner";
-import ProcessSquareCard from "../process/ProcessSquareCard";
+import SquareCard from "../squareCard/SquareCard";
 import AboutSquareUpCard from "./AboutSquareUpCard";
 import Banner from "@/components/custom/Banner";
 import img1 from "../../../assets/images/banner/b1.png";
@@ -60,10 +60,10 @@ const AboutSquareUp = () => {
       />
       <AboutSquareUpCard />
       <div className="flex flex-col container  pt-10 md:pt-15 lg:pt-20 xl:pt-25 gap-10 lg:gap-20 xl:gap-25 border border-[var(--color-background)]">
-        <h1 className="px-2 sm:px-4 md:px-8 lg:px-12 gap-12 text-[38px] md:text-[42px] lg:text-[48px] xl:text-[58px] font-[600] ">
+        <h2 className="px-4 md:px-8 lg:px-12 gap-12 text-[38px] md:text-[42px] lg:text-[48px] xl:text-[58px] font-[600] ">
           Our Story
-        </h1>
-        <ProcessSquareCard cardData={cardData} headingColor="text-[#D8FF99]" />
+        </h2>
+        <SquareCard cardData={cardData} headingColor="text-[#D8FF99]" />
       </div>
       <BelowTextBanner />
     </div>

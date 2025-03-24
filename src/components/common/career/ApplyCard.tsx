@@ -18,7 +18,7 @@ const ApplyCard = ({ applyData }: { applyData: ApplyData[] }) => {
           key={index}
           className="flex flex-col pt-10 gap-10 xl:pt-12 xl:gap-12 border border-[var(--color-border)]"
         >
-          <h3 className="h3-28 pl-2 sm:pl-4 md:pl-6 lg:pl-10 xl:pl-12">
+          <h3 className="h3-28 pl-4 md:pl-6 lg:pl-10 xl:pl-12">
             {category.title}
           </h3>
 
@@ -26,7 +26,7 @@ const ApplyCard = ({ applyData }: { applyData: ApplyData[] }) => {
             {category.value.map((job, idx) => (
               <div
                 key={idx}
-                className="flex flex-col justify-between p-2 sm:p-4 md:p-6 lg:p-10 xl:p-12 gap-10 border border-[var(--color-border)]"
+                className="flex flex-col justify-between p-4 md:p-6 lg:p-10 xl:p-12 gap-10 border border-[var(--color-border)]"
               >
                 <div className="flex flex-col gap-6">
                   <div className="flex lg:flex-col gap-3 items-center lg:items-start">

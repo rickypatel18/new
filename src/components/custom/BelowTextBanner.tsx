@@ -4,7 +4,7 @@ import CustomContainer from "./CustomContainer";
 
 const BelowTextBanner = () => {
   return (
-    <div className="flex flex-col container py-10 px-2 sm:px-4 md:px-8 lg:p-15 xl:p-20 gap-7 lg:gap-10 xl:gap-12 border border-[var(--color-background)]">
+    <div className="flex flex-col container py-10 px-4 md:px-8 lg:p-15 xl:p-20 gap-7 lg:gap-10 xl:gap-12 border border-[var(--color-background)]">
       <div className="flex flex-col items-center p-0 lg:flex-row gap-6 lg:gap-8 xl:gap-10 ">
         <PageLogo hide={true} />
         <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5  ">
@@ -28,6 +28,7 @@ const BelowTextBanner = () => {
           Shape the Future of Digital Innovation.
         </CustomContainer>
         <CustomButton
+          to="/project"
           display="flex md:flex"
           text="Start Project"
           textSize="text-[13px] md:text-[14px] lg:text-[16px] xl:text-[18px]"

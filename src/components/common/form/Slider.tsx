@@ -5,7 +5,7 @@ const Slider = () => {
   const minValue = 100;
   const maxValue = 10000;
   const step = 1;
-  const gap = 10; // Minimum gap between sliders
+  const gap = 500; // Minimum gap between sliders
 
   const [min, setMin] = useState(1000);
   const [max, setMax] = useState(5000);
@@ -25,11 +25,11 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-full  mx-auto  ">
+    <div className="relative w-full mx-auto py-6 px-1">
       {/* Range Track */}
-      <div className="w-full relative h-2 bg-[var(--color-background)] rounded">
+      <div className="w-full relative h-1 bg-[var(--color-background)] rounded">
         <div
-          className="absolute h-2 bg-[var(--color-primary)] rounded"
+          className="absolute h-1.5 bg-[var(--color-primary)] rounded"
           style={{
             left: `${(min / maxValue) * 100}%`,
             right: `${100 - (max / maxValue) * 100}%`,
@@ -38,7 +38,7 @@ const Slider = () => {
       </div>
 
       {/* Range Inputs */}
-      <div className="relative">
+      <div className="relative ">
         <input
           type="range"
           min={minValue}
@@ -61,9 +61,9 @@ const Slider = () => {
       </div>
 
       {/* Display values above range thumbs */}
-      <div className="relative flex justify-between">
+      <div className="relative flex justify-between ">
         <span
-          className="absolute text-sm font-semibold text-white bg-transparent px-2 py-10 rounded -top-8"
+          className="absolute text-sm font-semibold text-white bg-transparent top-4 "
           style={{
             left: `${(min / maxValue) * 100}%`,
             transform: "translateX(-50%)",
@@ -72,7 +72,7 @@ const Slider = () => {
           ${min}
         </span>
         <span
-          className="absolute text-sm font-semibold text-white bg-transparent 0 px-2 py-10 rounded -top-8"
+          className="absolute text-sm font-semibold text-white bg-transparent 0 top-4"
           style={{
             left: `${(max / maxValue) * 100}%`,
             transform: "translateX(-50%)",

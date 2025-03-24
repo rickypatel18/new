@@ -8,8 +8,8 @@ import img4 from "../assets/images/banner/b4.png";
 import Service from "@/components/common/home/Service";
 import ChooseUs from "@/components/common/home/ChooseUs";
 import ClientSay from "@/components/common/home/ClientSay";
-import Faq from "@/components/common/home/Faq";
-import Form from "@/components/common/home/Form";
+import Faq from "@/components/common/faq/Faq";
+import Form from "@/components/common/form/Form";
 import BelowBanner from "@/components/custom/BelowBanner";
 
 const Home = () => {
