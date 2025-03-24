@@ -1,7 +1,6 @@
-import bg from "../../../assets/images/bg/Bg-Design.png";
-import img from "../../../assets/images/banner/b6.png";
-import PageLogo from "../logo/PageLogo";
-// import "../../../assets/css/about.css"
+import bg from "../../assets/images/bg/Bg-Design.png";
+import img from "../../assets/images/banner/b6.png";
+import PageLogo from "../../components/common/logo/PageLogo";
 
 const AboutSquareUpCard = () => {
   return (

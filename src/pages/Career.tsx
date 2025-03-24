@@ -1,4 +1,4 @@
-import CareerSquareUp from "@/components/common/career/CareerSquareUp";
+import CareerSquareUp from "@/views/career/CareerSquareUp";
 
 const Career = () => {
   return (

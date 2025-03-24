@@ -1,6 +1,5 @@
 import CustomButton from "../../custom/CustomButton.js";
 import "../../../assets/css/form.css";
-import "../../../assets/js/form.js";
 import Slider from "./Slider.js";
 
 const Form = () => {

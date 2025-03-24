@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import Header from "../components/common/header/Header";
-import Footer from "@/components/common/footer/Footer";
+import Header from "../views/header/Header";
+import Footer from "@/views/footer/Footer";
 
 interface MainLayoutProps {
   children: ReactNode;

@@ -1,6 +1,6 @@
 import CustomContainer from "@/components/custom/CustomContainer";
 import { ImArrowUpRight2 } from "react-icons/im";
-import img from "../../../assets/images/work/Image.png";
+import img from "../../assets/images/work/Image.png";
 
 interface CardProps {
   cardData: {

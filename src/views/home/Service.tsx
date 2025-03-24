@@ -1,4 +1,4 @@
-import img from "../../../assets/images/services-icon/Icon (11).png";
+import img from "../../assets/images/services-icon/Icon (11).png";
 
 const Service = () => {
   const data = [

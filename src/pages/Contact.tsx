@@ -1,4 +1,4 @@
-import ContactSquareup from "@/components/common/contact/ContactSquareup";
+import ContactSquareup from "@/views/contact/ContactSquareup";
 
 const Contact = () => {
   return (

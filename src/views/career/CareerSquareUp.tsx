@@ -2,9 +2,9 @@ import SubConatainer from "@/components/custom/SubConatainer";
 import CareerCard from "./CareerCard";
 import BelowTextBanner from "@/components/custom/BelowTextBanner";
 import ApplyCard from "./ApplyCard";
-import img from "../../../assets/images/carrer-icon/Icon (2).png";
+import img from "../../assets/images/carrer-icon/Icon (2).png";
 import Banner from "@/components/custom/Banner";
-import img1 from "../../../assets/images/banner/b1.png"
+import img1 from "../../assets/images/banner/b1.png"
 
 const CareerSquareUp = () => {
   const data1 = {

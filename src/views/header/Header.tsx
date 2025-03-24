@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi"; // Import menu icons
 import Logo from "@/components/common/logo/Logo";
-import NavMenuHeader from "@/components/common/header/NavMenuHeader";
+import NavMenuHeader from "@/views/header/NavMenuHeader";
 import CustomButton from "@/components/custom/CustomButton";
 
 const navLinks = [

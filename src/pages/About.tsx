@@ -1,4 +1,4 @@
-import AboutSquareUp from "@/components/common/about/AboutSquareUp";
+import AboutSquareUp from "@/views/about/AboutSquareUp";
 
 const About = () => {
   return (

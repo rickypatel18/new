@@ -2,11 +2,11 @@ import CustomContainer from "@/components/custom/CustomContainer";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
-import Form from "../form/Form";
-import Media from "../media/Media";
-import img1 from "../../../assets/images/banner/b1.png";
+import Form from "../../components/common/form/Form";
+import Media from "../../components/common/media/Media";
+import img1 from "../../assets/images/banner/b1.png";
 import Banner from "@/components/custom/Banner";
-import Faq from "../faq/Faq";
+import Faq from "../../components/common/faq/Faq";
 import BelowTextBanner from "@/components/custom/BelowTextBanner";
 
 const ContactSquareup = () => {

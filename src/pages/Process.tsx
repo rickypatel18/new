@@ -1,4 +1,4 @@
-import ProcessSquareUp from "@/components/common/process/ProcessSquareUp";
+import ProcessSquareUp from "@/views/process/ProcessSquareUp";
 
 const Process = () => {
   return (

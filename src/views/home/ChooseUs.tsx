@@ -1,4 +1,4 @@
-import img from "../../../assets/images/carrer-icon/Icon (2).png";
+import img from "../../assets/images/carrer-icon/Icon (2).png";
 
 const ChooseUs = () => {
   const data = [

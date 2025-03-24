@@ -1,4 +1,4 @@
-import WorkSquareUp from "@/components/common/work/WorkSquareUp";
+import WorkSquareUp from "@/views/work/WorkSquareUp";
 
 const Work = () => {
   return (

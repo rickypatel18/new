@@ -1,4 +1,4 @@
-import ServiceCards from "@/components/common/service/ServiceCards";
+import ServiceCards from "@/views/service/ServiceCards";
 
 const Services = () => {
   return (

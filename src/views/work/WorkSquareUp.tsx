@@ -2,7 +2,7 @@ import SubConatainer from "@/components/custom/SubConatainer";
 import WorkSquareCard from "./WorkSquareCard";
 import BelowBanner from "@/components/custom/BelowBanner";
 import Banner from "@/components/custom/Banner";
-import img1 from "../../../assets/images/banner/b1.png";
+import img1 from "../../assets/images/banner/b1.png";
 
 const WorkSquareUp = () => {
   const data = {

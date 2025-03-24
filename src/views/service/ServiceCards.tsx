@@ -1,6 +1,6 @@
-import img from "../../../assets/images/services-icon/Icon (2).png";
-import img1 from "../../../assets/images/services-icon/Icon (3).png";
-import img2 from "../../../assets/images/banner/b1.png";
+import img from "../../assets/images/services-icon/Icon (2).png"
+import img1 from "../../assets/images/services-icon/Icon (3).png";
+import img2 from "../../assets/images/banner/b1.png";
 import Banner from "@/components/custom/Banner";
 import BelowBanner from "@/components/custom/BelowBanner";
 import Service from "./Service";

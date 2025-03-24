@@ -1,8 +1,8 @@
 import BelowBanner from "@/components/custom/BelowBanner";
 import SubConatainer from "@/components/custom/SubConatainer";
-import SquareCard from "../squareCard/SquareCard";
+import SquareCard from "../../components/common/squareCard/SquareCard";
 import Banner from "@/components/custom/Banner";
-import img1 from "../../../assets/images/banner/b1.png";
+import img1 from "../../assets/images/banner/b1.png";
 
 const ProcessSquareUp = () => {
   const cardData = [

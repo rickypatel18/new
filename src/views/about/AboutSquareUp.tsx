@@ -1,8 +1,8 @@
 import BelowTextBanner from "@/components/custom/BelowTextBanner";
-import SquareCard from "../squareCard/SquareCard";
+import SquareCard from "../../components/common/squareCard/SquareCard";
 import AboutSquareUpCard from "./AboutSquareUpCard";
 import Banner from "@/components/custom/Banner";
-import img1 from "../../../assets/images/banner/b1.png";
+import img1 from "../../assets/images/banner/b1.png";
 
 const AboutSquareUp = () => {
   const cardData = [

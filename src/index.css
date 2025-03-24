@@ -29,13 +29,13 @@ body {
   @apply text-[28px] md:text-[33px] lg:text-[38px] xl:text-[48px] font-semibold text-[#FFFFFF] text-center;
 }
 .h2-p {
-  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-center;
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-6 text-[#E6E6E6] text-center;
 }
 .h3 {
   @apply text-[20px] lg:text-[24px] xl:text-[30px] font-[600] text-start text-[#FFFFFF];
 }
 .h3-p {
-  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-[24px] text-[#E6E6E6] text-start;
+  @apply text-[14px] md:text-[16px] lg:text-[18px] font-[400] leading-6 text-[#E6E6E6] text-start;
 }
 
 .form-heading {
