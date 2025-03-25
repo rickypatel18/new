@@ -3,6 +3,7 @@ import WorkSquareCard from "./WorkSquareCard";
 import BelowBanner from "@/components/custom/BelowBanner";
 import Banner from "@/components/custom/Banner";
 import img1 from "../../assets/images/banner/b1.png";
+import img from "../../assets/images/work/Image.png";
 
 const WorkSquareUp = () => {
   const data = {
@@ -22,6 +23,7 @@ const WorkSquareUp = () => {
   const cardData = [
     {
       heading: "E-Commerce Platform for Fashion Hub",
+      imageUrl: img,
       title: "Chic Boutique",
       link: "https://www.chicboutique.com",
       description:
@@ -29,6 +31,7 @@ const WorkSquareUp = () => {
     },
     {
       heading: "Mobile App for Food Delivery Service",
+      imageUrl: img,
       title: "HungryBites",
       link: "https://www.hungrybites.com",
       description:
@@ -36,6 +39,7 @@ const WorkSquareUp = () => {
     },
     {
       heading: "Booking and Reservation System for Event Management",
+      imageUrl: img,
       title: "EventMasters",
       link: "https://www.eventmasters.com",
       description:
@@ -43,6 +47,7 @@ const WorkSquareUp = () => {
     },
     {
       heading: "Custom Software for Workflow Automation",
+      imageUrl: img,
       title: "ProTech Solutions",
       link: "https://www.protechsolutions.com",
       description:
@@ -50,6 +55,7 @@ const WorkSquareUp = () => {
     },
     {
       heading: "Web Portal for Real Estate Listings",
+      imageUrl: img,
       title: "Dream Homes Realty",
       link: "https://www.dreamhomesrealty.com",
       description:
@@ -57,6 +63,7 @@ const WorkSquareUp = () => {
     },
     {
       heading: "E-Commerce Platform for Fashion Hub",
+      imageUrl: img,
       title: "Chic Boutique",
       link: "https://www.chicboutique.com",
       description:

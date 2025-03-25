@@ -1,19 +1,18 @@
 import CustomContainer from "@/components/custom/CustomContainer";
 import { ImArrowUpRight2 } from "react-icons/im";
-import img from "../../assets/images/work/Image.png";
 import { useNavigate } from "react-router-dom";
 
 interface CardProps {
   cardData: {
-    heading: string;
     title: string;
+    imageUrl: string;
+    heading: string;
     link: string;
     description: string;
   }[];
 }
 
 const WorkSquareCard = ({ cardData }: CardProps) => {
-
   const navigate = useNavigate();
 
   return (
@@ -25,11 +24,11 @@ const WorkSquareCard = ({ cardData }: CardProps) => {
           onClick={() => navigate(`/card/${index}`, { state: { card } })}
         >
           <div className=" py-4 lg:py-5 xl:py-6 work-26 border-b border-[var(--color-background)]">
-            <p className="px-4 md:px-6 lg:px-8 xl:px-10">{card.heading}</p>
+            <p className="px-4 md:px-6 lg:px-8 xl:px-10">{card.title}</p>
           </div>
           <div className="px-4 md:px-6 lg:px-8 xl:px-10 gap-4 md:gap-5 lg:gap-6 xl:gap-7 flex flex-col">
             <div>
-              <img src={img} alt={card.title} />
+              <img src={card.imageUrl} alt={card.heading} />
             </div>
             <div className="flex justify-between items-end lg:items-center">
               <div className="flex flex-col gap-2 lg:gap-3">
