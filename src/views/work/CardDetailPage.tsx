@@ -2,6 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import CustomContainer from "@/components/custom/CustomContainer";
 import { FaChevronLeft } from "react-icons/fa";
 
+// use ref, localstorage, context, redux
 const CardDetailPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -26,9 +27,15 @@ const CardDetailPage = () => {
         className="my-4 w-full rounded-lg"
       />
       <p className="">{card.description}</p>
-      <CustomContainer className="mt-4 text-blue-500 underline">
-        <a href={card.link} target="_blank" rel="noopener noreferrer">
-          Visit: {card.link}
+      <CustomContainer className="mt-4 underline">
+        visit :
+        <a
+          href={card.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400"
+        >
+          {card.link}
         </a>
       </CustomContainer>
     </div>
@@ -36,3 +43,4 @@ const CardDetailPage = () => {
 };
 
 export default CardDetailPage;
+
