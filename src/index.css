@@ -12,6 +12,8 @@
   --color-text-gray: #98989a;
   --font-primary: "Barlow", sans-serif;
   --color-border: #262626;
+  --color-border: #262626;
+  
 }
 
 body::-webkit-scrollbar {

@@ -20,15 +20,20 @@ const AboutSquareUpCard = () => {
 
       <div
         className="container h-[315px] sm:h-[391px] lg:h-[433px]  xl:h-[520px] !mx-0
-             bg-[length:30px_20px,100%_100%]  
-             lg:bg-[length:30px_20px,100%_100%] 
-             xl:bg-[length:30px_20px,100%_100%] 
-             bg-repeat border border-[var(--color-border)] 
-             flex rounded-2xl relative "
-        style={{
-          backgroundImage: `url(${bg}), url(${img})`,
-        }}
+             border border-[var(--color-border)] 
+             flex rounded-2xl relative z-[1]"
       >
+        <div
+          className="bg-blend-overlay bg-[#ACFF24]/20 absolute size-full opacity-60 -z-[1] bg-no-repeat  bg-center"
+          style={{
+            backgroundImage: `url(${img}), url(${bg})`,
+            backgroundSize: "cover",
+            mixBlendMode: "overlay",
+            backgroundColor: "rgb(172 255 36 / 50%)",
+            opacity: "0.1",
+            backgroundBlendMode: "luminosity",
+          }}
+        ></div>
         <div className="absolute w-[50%] top-[50%] left-0 before:content-[''] before:absolute before:w-full before:h-1 before:top-1/2 before:left-0 before:-translate-y-3/4 before:bg-gradient-to-l before:from-[#9eff00] before:via-[#9eff00bb] before:to-transparent"></div>
 
         <div className="absolute w-[50%] top-[50%] right-0 before:content-[''] before:absolute before:w-full before:h-1 before:top-1/2 before:left-0 before:-translate-y-3/4 before:bg-gradient-to-l before:from-trasparent before:via-[#9eff00bb] before:to-[#9eff00]"></div>
