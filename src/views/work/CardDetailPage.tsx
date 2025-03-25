@@ -2,13 +2,20 @@ import { useLocation, useNavigate } from "react-router-dom";
 import CustomContainer from "@/components/custom/CustomContainer";
 import { FaChevronLeft } from "react-icons/fa";
 
-// use ref, localstorage, context, redux
 const CardDetailPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const card = location.state?.card; // Get card data from state
+  // console.log("Location State:", location.state);
+  // use ref, localstorage, context, redux to store this page detail otherwise it will lost on refresh
 
-  if (!card) return <p className="text-center text-red-500">Card not found</p>;
+
+  if (!card)
+    return (
+      <div className="flex flex-col container ">
+        <h2 className="h2 !mt-10">Card Not Found</h2>
+      </div>
+    );
 
   return (
     <div className="max-w-3xl mx-auto p-6">
@@ -43,4 +50,3 @@ const CardDetailPage = () => {
 };
 
 export default CardDetailPage;
-

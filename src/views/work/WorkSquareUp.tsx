@@ -22,49 +22,49 @@ const WorkSquareUp = () => {
 
   const cardData = [
     {
-      heading: "E-Commerce Platform for Fashion Hub",
-      imageUrl: img,
       title: "Chic Boutique",
+      imageUrl: img,
+      heading: "E-Commerce Platform for Fashion Hub",
       link: "https://www.chicboutique.com",
       description:
         "We developed a visually stunning and user-friendly e-commerce platform for Chic Boutique, a renowned fashion retailer. The platform featured seamless product browsing, secure payment integration, and personalized recommendations, resulting in increased online sales and customer satisfaction.",
     },
     {
-      heading: "Mobile App for Food Delivery Service",
-      imageUrl: img,
       title: "HungryBites",
+      imageUrl: img,
+      heading: "Mobile App for Food Delivery Service",
       link: "https://www.hungrybites.com",
       description:
         "HungryBites approached us to create a mobile app that streamlined their food delivery service. The app included features like real-time order tracking, easy menu customization, and secure payment options, resulting in improved customer convenience and operational efficiency.",
     },
     {
-      heading: "Booking and Reservation System for Event Management",
-      imageUrl: img,
       title: "EventMasters",
+      imageUrl: img,
+      heading: "Booking and Reservation System for Event Management",
       link: "https://www.eventmasters.com",
       description:
         "EventMasters required a comprehensive booking and reservation system for their event management services. We designed a user-friendly platform that allowed seamless event registration, ticketing, and attendee management, resulting in streamlined processes and enhanced customer experiences.",
     },
     {
-      heading: "Custom Software for Workflow Automation",
-      imageUrl: img,
       title: "ProTech Solutions",
+      imageUrl: img,
+      heading: "Custom Software for Workflow Automation",
       link: "https://www.protechsolutions.com",
       description:
         "ProTech Solutions needed workflow automation software to optimize operations. We developed a robust system that increased efficiency and reduced manual tasks.",
     },
     {
-      heading: "Web Portal for Real Estate Listings",
-      imageUrl: img,
       title: "Dream Homes Realty",
+      imageUrl: img,
+      heading: "Web Portal for Real Estate Listings",
       link: "https://www.dreamhomesrealty.com",
       description:
         "Dream Homes Realty wanted an intuitive web portal for showcasing their property listings. We created a visually appealing platform with advanced search filters, virtual tours, and a user-friendly interface, enabling potential buyers to find their dream homes easily.",
     },
     {
-      heading: "E-Commerce Platform for Fashion Hub",
-      imageUrl: img,
       title: "Chic Boutique",
+      imageUrl: img,
+      heading: "E-Commerce Platform for Fashion Hub",
       link: "https://www.chicboutique.com",
       description:
         "We developed a visually stunning and user-friendly e-commerce platform for Chic Boutique, a renowned fashion retailer. The platform featured seamless product browsing, secure payment integration, and personalized recommendations, resulting in increased online sales and customer satisfaction.",
