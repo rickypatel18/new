@@ -16,20 +16,20 @@ const WorkSquareCard = ({ cardData }: CardProps) => {
   const navigate = useNavigate();
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2">
       {cardData.map((card, index) => (
         <div
           key={index}
           className="flex flex-col border gap-5 lg:gap-7 border-[var(--color-background)] pb-10 md:pb-15 lg:pb-20 xl:pb-25 cursor-pointer"
           onClick={() => navigate(`/card/${index}`, { state: { card } })}
         >
-          <div className=" py-4 lg:py-5 xl:py-6 work-26 border-b border-[var(--color-background)]">
-            <p className="px-4 md:px-6 lg:px-8 xl:px-10">{card.title}</p>
+          <div className="  work-26 border-b border-[var(--color-background)]">
+            <p className="px-4 md:px-6 lg:px-8 xl:px-10 py-4 lg:py-5 xl:py-6">{card.title}</p>
           </div>
           <div className="px-4 md:px-6 lg:px-8 xl:px-10 gap-4 md:gap-5 lg:gap-6 xl:gap-7 flex flex-col">
-            <div>
+            
               <img src={card.imageUrl} alt={card.heading} />
-            </div>
+            
             <div className="flex justify-between items-end lg:items-center">
               <div className="flex flex-col gap-2 lg:gap-3">
                 <h3 className="work-heading-24">{card.title}</h3>

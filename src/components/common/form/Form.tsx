@@ -92,6 +92,7 @@ const Form = () => {
 
         <div className="flex justify-center items-center ">
           <CustomButton
+          to="/not-functional"
             display="flex md:flex"
             padding="px-12"
             width="w-full md:w-fit"

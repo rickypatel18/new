@@ -13,7 +13,7 @@ const CustomCard = ({ heading }: { heading: Heading }) => {
         <div className="lg:pl-10 xl:pl-12 h3-28 ">
           <p className="text-center lg:text-start">{heading.value}</p>
         </div>
-        <div className="container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
           {heading.items.map((item, index) => (
             <div
               key={index}

@@ -22,7 +22,7 @@ const ApplyCard = ({ applyData }: { applyData: ApplyData[] }) => {
             {category.title}
           </h3>
 
-          <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
             {category.value.map((job, idx) => (
               <div
                 key={idx}
